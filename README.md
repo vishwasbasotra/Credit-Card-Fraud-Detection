@@ -28,12 +28,12 @@ Credit Card Fraud Detection is a typical example of classification. In this proc
 
 The following are essential definitions – in the current problem’s context – needed to understand the approaches mentioned later:
 
-- True Positive: The fraud cases that the model predicted as ‘fraud.’
-- False Positive: The non-fraud cases that the model predicted as ‘fraud.’
-- True Negative: The non-fraud cases that the model predicted as ‘non-fraud.’
-- False Negative: The fraud cases that the model predicted as ‘non-fraud.’
-- Threshold Cutoff Probability: Probability at which the true positive ratio and true negatives ratio are both highest. It can be noted that this probability is minimal, which is reasonable as the probability of frauds is low.
-- Accuracy: The measure of correct predictions made by the model – that is, the ratio of fraud transactions classified as fraud and non-fraud classified as non-fraud to the total transactions in the test data.
-- Sensitivity: Sensitivity, or True Positive Rate, or Recall, is the ratio of correctly identified fraud cases to total fraud cases.
-- Specificity: Specificity, or True Negative Rate, is the ratio of correctly identified non-fraud cases to total non-fraud cases.
-- Precision: Precision is the ratio of correctly predicted fraud cases to total predicted fraud cases.
+- __True Positive__: The fraud cases that the model predicted as ‘fraud.’
+- __False Positive__: The non-fraud cases that the model predicted as ‘fraud.’
+- __True Negative__: The non-fraud cases that the model predicted as ‘non-fraud.’
+- __False Negative__: The fraud cases that the model predicted as ‘non-fraud.’
+- __Threshold Cutoff Probability__: Probability at which the true positive ratio and true negatives ratio are both highest. It can be noted that this probability is minimal, which is reasonable as the probability of frauds is low.
+- __Accuracy__: The measure of correct predictions made by the model – that is, the ratio of fraud transactions classified as fraud and non-fraud classified as non-fraud to the total transactions in the test data.
+- __Sensitivity__: Sensitivity, or True Positive Rate, or Recall, is the ratio of correctly identified fraud cases to total fraud cases.
+- __Specificity__: Specificity, or True Negative Rate, is the ratio of correctly identified non-fraud cases to total non-fraud cases.
+- __Precision__: Precision is the ratio of correctly predicted fraud cases to total predicted fraud cases.
